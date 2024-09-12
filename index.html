@@ -3,40 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/uitils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BlogSphere</title>
 </head>
 <body>
-   <div class="container">
-      <div class="sidebar">
-         <nav>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="skills.html">Skills</a><li>
-            <li><a href="contact.html">Contact details</a>
-      </div>
-      <div class="main">
-         <div class="infocontainer">
-            <div class="devInfo">
-               <div class="greeting">Hi I am Suvodip</div>
-               <div class="intro">A passonate web developer who wants to explore as musch as he can.</div>
-               <div class="buttons">
-                  <a href="contact.html"target="_blank">
-                     <button class="btn">contact me</button>
-                  </a>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="blogpost.html" target="_blank">Blogpost</a></li>
+                <li><a href="contact.html" target="_blank">contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <input class="form-input" type="text" placeholder="Search for Articals">
+            <button class="btn">Search</button>
+        </div>
+    
+    </nav>
+    <div class="content max-width-1 m-auto">
+        <div class="content-left">
+            <h1>Welcome to BlogSphere </h1> 
+            <p>We’re a place where bloggers can share their ideas and connect with others. You can find new blogs, get help from other writers, and share your own stories. Join us and be part of a supportive community.</p>
 
-                  <a href="resume.txt"target="_blank">
-                     <button class="btn">My Resume<button>
-                  </a>
-               </div>
+        </div>
+        <div class="content-right">
+            <img src="img/home.jpg"alt="imgame">
+            
+        </div>
 
-            </div>
-            <div class="devpic"><img src="dev2.png" alt="Picture"></div>
-         </div>
-      </div>
-   </div>
-      
-   
+    </div>
+    <div class="max-width-1 m-auto">
+        <hr>
 
+    </div>
+    <div class="home-articals max-width-1 m-auto font2">
+        <h2>More Articals</h2>
+        <div class="home-artical">
+            <div class="home-artical-img">
+          <img src="img/img2.png" alt="artical">
+        </div>
+          <div class="home-artical-content font2">
+            <h3>The Joy of Baking: A Beginner's Guide</h3>
+            <span>Author name</span>
+            <span>08 Jan | 7min read </span>
+            <span></span>
+          </div>  
+
+        </div>
+
+    </div>
+    <div class="home-artical">
+        <div class="home-artical-img">
+      <img src="img/img4.jpeg" alt="artical">
+    </div>
+    
+      <div class="home-artical-content font2">
+        <br>
+        <h3>The Joy of Baking: A Beginner's Guide</h3>
+        <span>Author name</span>
+        <span>08 Jan | 7min read </span>
+        <span></span>
+      </div>  
+
+    </div>
+    <div class="footer ">
+        Copyright & copy; BlogSphere.com
+
+    </div>
 </body>
 </html>
